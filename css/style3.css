@@ -31,13 +31,16 @@ body {
     margin-left: 200px;
 }
 
+
 p {
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Work Sans', sans-serif;
     color: black;
     text-align: center;
     position: relative;
-    top: 40%;
+    top: 35%;
+    left: 10%;
+    width: 80%;
 }
 
 #btn-back1 {

@@ -59,12 +59,26 @@ p {
     border: transparent;
 }
 
+#btn-back {
+    position: absolute;
+    bottom: 50px;
+    width: 200px;
+    left: 79px;
+    background-color: transparent;
+    border: transparent;
+}
+
 #btn-yes:hover {
     cursor: pointer;
     color:tomato;
 }
 
 #btn-no:hover {
+    cursor: pointer;
+    color:tomato;
+}
+
+#btn-back:hover {
     cursor: pointer;
     color:tomato;
 }

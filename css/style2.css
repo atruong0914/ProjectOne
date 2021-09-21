@@ -43,8 +43,8 @@ p {
 #btn-yes {
     position: absolute;
     bottom: 90px;
-    width: 250px;
-    right: 100px;
+    width: 120px;
+    right: 50px;
     background-color: transparent;
     border: transparent;
 
@@ -53,8 +53,8 @@ p {
 #btn-no {
     position: absolute;
     bottom: 90px;
-    width: 250px;
-    left: 100px;
+    width: 120px;
+    left: 50px;
     background-color: transparent;
     border: transparent;
 }
@@ -89,4 +89,104 @@ p {
     width: 700px;
     position: absolute;
     right: 55%;
+}
+
+@media only screen and (max-width: 400px){
+    html{
+        height: 100%;
+    }
+    
+    body {
+        background-image: url(/images/bg.png);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+    
+    #textbox1 {
+        position: absolute;
+        bottom:400px;
+        right: 20px;
+        width: 90%;
+        height: 60%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    #textbox {
+        position: absolute;
+        bottom:10px;
+        right: 60px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+    }
+    
+    p {
+        font-size: 25px;
+        font-family: 'Work Sans', sans-serif;
+        color: black;
+        text-align: center;
+        position: relative;
+        top: 27%;
+    }
+    
+    #btn-yes {
+        position: absolute;
+        bottom: 90px;
+        width: 120px;
+        right: 50px;
+        background-color: transparent;
+        border: transparent;
+    
+    }
+    
+    #btn-no {
+        position: absolute;
+        bottom: 90px;
+        width: 120px;
+        left: 50px;
+        background-color: transparent;
+        border: transparent;
+    }
+    
+    #btn-back {
+        position: absolute;
+        bottom: 50px;
+        width: 200px;
+        left: 45px;
+        background-color: transparent;
+        border: transparent;
+    }
+    
+    #btn-yes:hover {
+        cursor: pointer;
+        color:tomato;
+    }
+    
+    #btn-no:hover {
+        cursor: pointer;
+        color:tomato;
+    }
+    
+    #btn-back:hover {
+        cursor: pointer;
+        color:tomato;
+    }
+    
+    #girl {
+        display: flex;
+        height: auto;
+        width: 400px;
+        position: absolute;
+        right: 3%;
+        bottom: 3px;
+    }
 }

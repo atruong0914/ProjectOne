@@ -63,6 +63,7 @@ p {
     width: 700px;
     position: absolute;
     right: 55%;
+    bottom: 0;
 }
 @media only screen and (max-width: 400px){
     html{

@@ -19,10 +19,13 @@ $('#btn-continue').click(function(){
     window.location.href='nopage.html';
  })
 
+console.log(window.location.href)
+
  //api stuff
 //making a function called quote
 function quote(){
     //use ajax to fetch api
+    if (document.location.pathname === '/yespage.html'){
    $.ajax('https://animechan.vercel.app/api/random')
     //success 
     .then(quote => {
@@ -32,6 +35,7 @@ function quote(){
     }), (error => {
         console.log(error)
     })
+}
 }
 quote()
 //when it works, render it on page(show it on the page)

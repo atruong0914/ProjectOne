@@ -1,7 +1,7 @@
 
 
 body {
-    background-image: url('/images/door.jpg');
+    background-image: url('./images/door.jpg');
     display: flex;
     flex-direction: column;
     justify-content: center;

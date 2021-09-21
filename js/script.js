@@ -25,6 +25,7 @@ console.log(window.location.href)
 //making a function called quote
 function quote(){
     //use ajax to fetch api
+    // if the location is = yespage.html then run this function
     if (document.location.pathname === '/yespage.html'){
    $.ajax('https://animechan.vercel.app/api/random')
     //success 

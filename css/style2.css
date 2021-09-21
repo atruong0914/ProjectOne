@@ -1,0 +1,78 @@
+body {
+    background-image: url(/images/bg.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#textbox1 {
+    position: absolute;
+    bottom:400px;
+    right: 200px;
+    width: 35%;
+    height: 50%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#textbox {
+    position: absolute;
+    bottom:20px;
+    width: 38vh;
+    height: 20vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+p {
+    font-size: 25px;
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 33%;
+}
+
+#btn-yes {
+    position: absolute;
+    bottom: 90px;
+    width: 250px;
+    right: 100px;
+    background-color: transparent;
+    border: transparent;
+
+}
+
+#btn-no {
+    position: absolute;
+    bottom: 90px;
+    width: 250px;
+    left: 100px;
+    background-color: transparent;
+    border: transparent;
+}
+
+#btn-yes:hover {
+    cursor: pointer;
+    color:tomato;
+}
+
+#btn-no:hover {
+    cursor: pointer;
+    color:tomato;
+}
+
+#girl {
+    display: flex;
+    height: auto;
+    width: 700px;
+    position: absolute;
+    right: 55%;
+}

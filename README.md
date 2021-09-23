@@ -8,3 +8,7 @@ you make your own choice and see where it takes you...
 ![page-one](https://github.com/atruong0914/ProjectOne/blob/main/images/firstpage.png)
 ![no-page](https://github.com/atruong0914/ProjectOne/blob/main/images/nopage.png)
 ![yes-page](https://github.com/atruong0914/ProjectOne/blob/main/images/yespage.png)
+
+#future enhancements
+
+-more choices player can make as well as design improvements(e.g, animations)

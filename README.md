@@ -1,4 +1,5 @@
 # anime quotes project one
+deployment: https://atruong0914.github.io/ProjectOne/
 
 do you need someone to talk to? explore this short visual novel and see where your actions take you.. perhaps you may meet a special someone with the words you want to hear... 
 

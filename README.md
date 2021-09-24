@@ -4,7 +4,7 @@ deployment: https://atruong0914.github.io/ProjectOne/
 do you need someone to talk to? explore this short visual novel and see where your actions take you.. perhaps you may meet a special someone with the words you want to hear... 
 
 # technologies used
-javascript, jquery, html, and css, animechan api.
+javascript, jquery, html, css, google fonts, animechan api.
 
 # getting started
 you make your own choice and see where it takes you...
